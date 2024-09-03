@@ -32,5 +32,5 @@ graph LR;
   staged    -- "git commit"     --> tracked/comitted;
   %% изминили существкющий
   modified -- "git add" --> staged;
-  taged    -- "git commit"     --> tracked/comitted;
+  staged   -- "git commit"     --> tracked/comitted;
 ```
