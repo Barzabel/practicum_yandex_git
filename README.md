@@ -27,10 +27,10 @@ git log
 ```mermaid
 graph LR;
   %% состояния в git: 
-  создали новый файл
+  создали новый файл;
   untracked -- "git add" --> staged;
   staged    --> git commit    --> tracked/comitted;
-  изминили существкющий
+  изминили существкющий;
   modified -- "git add" --> staged;
   staged   --> git commit     --> tracked/comitted;
 ```
