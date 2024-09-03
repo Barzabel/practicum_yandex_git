@@ -26,9 +26,8 @@ git log
 
 ```mermaid
 graph LR;
-  %% состояния в git: 
+untracked;
   untracked -- "git add" --> staged;
-  staged    --> git commit    --> tracked/comitted;
+  staged -- "git commit"    --> tracked/comitted;
   modified -- "git add" --> staged;
-  staged   --> git commit     --> tracked/comitted;
 ```
