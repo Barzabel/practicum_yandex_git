@@ -31,3 +31,10 @@ untracked;
   staged -- "git commit"    --> tracked/comitted;
   modified -- "git add" --> staged;
 ```
+
+## commit
+
+для изменения HEAD комита не создовая новый, существует флаг --amend
+```
+git commit --amend --no-edit
+```
