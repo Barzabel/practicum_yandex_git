@@ -18,3 +18,19 @@ git log
 --name-only — показывает список изменённых файлов после информации о коммите;
 
 --name-status — показывает список файлов, которые добавлены/изменены/удалены.
+
+
+
+
+
+
+```mermaid
+graph LR;
+  %% состояния в git: 
+  %% создали новый файл
+  untracked -- "git add" --> staged;
+  staged    -- "git commit"     --> tracked/comitted;
+  %% изминили существкющий
+  modified -- "git add" --> staged;
+  taged    -- "git commit"     --> tracked/comitted;
+```
