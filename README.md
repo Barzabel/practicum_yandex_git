@@ -38,3 +38,14 @@ untracked;
 ```
 git commit --amend --no-edit
 ```
+
+## helpfull 
+команда для токо что бы обновить код на локальном репозитории 
+'''
+git pull && git checkout feature/feodors-new-project && git merge main
+'''
+- подтянули изменения
+- перешли на нашу ветку
+- влили последние изменения в нашу ветку
+
+
