@@ -40,10 +40,10 @@ git log
 graph LR;
 untracked;
   untracked -- "git add" --> staged;
-  staged -- "git commit"    --> tracked/comitted;
-  staged -- "chenge file"    --> modified;
-  tracked/comitted -- "chenge file"    --> modified;;
   modified -- "git add" --> staged;
+  staged -- "chenge file"    --> modified;
+  tracked/comitted -- "chenge file"    --> modified;
+  staged -- "git commit"    --> tracked/comitted;  
 ```
 
 ## commit
