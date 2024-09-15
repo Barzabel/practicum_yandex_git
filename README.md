@@ -99,6 +99,8 @@ git pull && git checkout feature/feodors-new-project && git merge main
 
 `git branch feature/the-finest-branch` (от англ. _branch_, «ветка») — создай ветку от текущей с названием `feature/the-finest-branch`;
 
+`git branch -m oldBranch newBranch` переименовать название ветки;
+
 `git checkout -b feature/the-finest-branch` — создай ветку `feature/the-finest-branch` и сразу переключись на неё.
 
 ## Навигация по веткам
